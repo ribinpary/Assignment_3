@@ -1,0 +1,19 @@
+#Write a Python function to sum all the numbers in a list?
+#CODE
+
+
+def summation(list1):
+    total=0
+    for i in list1:
+        total +=i
+    print('Expected Output:',total)
+
+list1=list(map(int,input("Enter a list: ").split()))
+summation(list1)
+
+
+
+#OUTPUT
+
+Enter a list: 8 2 3 0 7
+Expected Output: 20

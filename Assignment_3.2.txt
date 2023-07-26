@@ -1,0 +1,17 @@
+#Write a Python program to reverse a string?
+#CODE
+
+
+def reverse_string(string):
+    rev_string=string[::-1]
+    print("Expected Output:",rev_string)
+
+
+string = input("Sample String: ")
+reverse_string(string)
+
+
+#OUTPUT
+
+Sample String: 1234abcd
+Expected Output: dcba4321
